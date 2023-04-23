@@ -1,0 +1,220 @@
+header{
+    background: linear-gradient(rgba(211, 250, 179, 0.3),rgba(193, 238, 158, 0.6)),url(resources/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 30px;
+    color: white;
+}
+nav{
+    background-color: rgba(47, 90, 34, 0.7);
+    border-radius: 10px;
+}
+nav a{
+    color: rgb(236, 240, 245);
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(143, 241, 5);
+}
+#banner-content h1{
+    margin-top: -20px;
+}
+#banner-content p{
+    margin-left: 5px;
+}
+
+.choice
+{
+    background: linear-gradient(rgba(170, 202, 12, 0.5),rgba(255, 196, 34, 0.6)),url(resources/images/pic05.jpg);
+    padding: 40px;
+}
+.slide
+{
+    background: (rgba(0, 104, 24, 0.3),rgba(3, 83, 73, 0.7)),url(resources/images/pic05.jpg);
+    padding: 40px;
+}
+hr {
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b7d0e2;
+    border: 0 none;
+  }
+.bg-secondary{
+    background-color: rgb(225, 225, 225) !important;
+}
+footer{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(resources/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+footer img{
+    height: 60px;
+}
+footer iframe{
+    height: 200px;
+    width: 100%;
+    border: 5px solid orange;
+}
+#gallery {
+    background: linear-gradient(rgba(201, 196, 196, 0.8),rgba(43, 42, 42, 0.8)),url(resources/gallery.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#gallery img{
+    height: 200px;
+    margin: 10px;
+    transition: 1s;
+}
+#gallery img:hover{
+    transform: scale(1.2);
+}
+
+
+.about_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.about_main {
+    width: 100%;
+    float: left;
+    padding-left: 100px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #123c06;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 140px;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #262626;
+    margin: 0px;
+}
+
+.readmore_bt {
+    width: 165px;
+    float: left;
+    margin-top: 50px;
+}
+
+.readmore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #a3b104;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.readmore_bt a:hover {
+    color: #ffffff;
+    background-color: #101010;
+}
+
+
+#my_slider a.carousel-control-next {
+    position: absolute;
+    right: -100px;
+    top: 53%;
+    background: #a3b104;
+    color: #ffffff;
+}
+
+#my_slider a.carousel-control-prev {
+    position: absolute;
+    left: -100px;
+    top: 53%;
+    background-color: #164006;
+    color: #ffffff;
+}
+
+#my_slider .carousel-control-prev,
+#my_slider .carousel-control-next {
+    width: 68px;
+    height: 68px;
+    background: #a3b104;
+    opacity: 1;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+#my_slider .carousel-control-prev:hover,
+#my_slider .carousel-control-next:hover,
+#my_slider .carousel-control-prev:focus,
+#my_slider .carousel-control-next:focus {
+    background: #164006;
+    color: #ffffff;
+}
+
+
+.choose_taital {
+    width: 100%;
+    float: left;
+    color: #164006;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.choose_text {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #252525;
+    text-align: center;
+}
+
+
+.client_section {
+    width: 100%;
+    float: left;
+    background-image: url(resources/client-bg.png);
+    background: linear-gradient(rgba(0, 104, 24, 0.3),rgba(3, 83, 73, 0.7));
+    height: auto;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+
+
+
+.siaalya_text {
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    color: #a3b104;
+    font-weight: bold;
+}
+
+.lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #292828;
+    margin: 0px;
+}
+
+.quite_icon {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
